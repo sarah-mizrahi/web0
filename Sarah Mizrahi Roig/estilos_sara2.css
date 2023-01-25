@@ -1,0 +1,53 @@
+body { 
+    background-image: url("imagenes/playa3.jpg"); /*insertar imagen*/
+    background-repeat: no-repeat; /*que la imagen no se repita*/
+    background-size: cover; /*que la imagen ocupe toda la pantalla*/
+    background-attachment: fixed; /* para que no se mueva el fondo insertado*/
+}
+
+.menu {
+	text-decoration:none;
+    color:inherit;
+    font-size: 15pt;
+	font-family: Arial, Helvetica, sans-serif;
+	float: none;
+    width:10%;
+   	padding:5px 10px; /*El área de padding es el espacio entre el contenido del elemento y su borde*/
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}	
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(5, 5, 5);
+    font-size: 40pt; /*tamaño fuente*/
+    line-height: 3cm; /*separa texto de arriba y abajo*/
+    text-align:center; /* centra el texto*/
+    font-weight: bold;
+    }
+
+.imagen1  { /*centra la imagen*/
+        margin: auto;
+        display: block;
+        text-align: center;
+        }
+
+.texto1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(5, 5, 5);
+    font-size: 15pt; /*tamaño fuente*/
+    line-height: 1cm; /*separa texto de arriba y abajo*/
+    text-align:center; /* centra el texto*/
+    font-weight: bold;
+    }
+
+.texto2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(5, 5, 5);
+        font-size: 15pt; /*tamaño fuente*/
+        line-height: 1cm; /*separa texto de arriba y abajo*/
+        text-align:center; /* centra el texto*/
+        font-weight: bold;
+        }
